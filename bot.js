@@ -23,17 +23,6 @@ Client.on('ready', () => {
 Client.user.setGame(`Dragon ✨ | !help`,'https://www.twitch.tv/tariksv');
 });
 
-Client.on('message', message => {
-  if (message.content === "help") {
-message.author.send(""+ `  **
-
-
-
-**`);
-    }
-});
-// BY PATRIC,SAFA7
-
 
 client.login(process.env.BOT_TOKEN);
 
